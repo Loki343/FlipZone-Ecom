@@ -1,0 +1,340 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+      "price": 459.95,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "bags",
+      "image": "https://rukminim1.flixcart.com/image/832/832/l3ahpjk0/backpack/q/h/i/7-5-large-historage-backpack-travel-office-school-college-13-0-original-imagefrxcamphvch.jpeg?q=70",
+      "rating": {
+        "rate": 3.9,
+        "count": 120
+      }
+    },
+    {
+      "id": 2,
+      "title": "Mens Casual Premium Slim Fit T-Shirts ",
+      "price": 599.9,
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "category": "men's clothing",
+      "image": "https://rukminim1.flixcart.com/image/832/832/kzegk280/t-shirt/l/4/k/l-2-triptee-original-imagbf7kgf3f5gum.jpeg?q=70",
+      "rating": {
+        "rate": 4.1,
+        "count": 259
+      }
+    },
+    {
+      "id": 3,
+      "title": "Mens Cotton Jacket",
+      "price": 755.99,
+      "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
+      "category": "men's clothing",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/jacket/b/v/e/xl-1985-military-green-jacket-for-men-white-luxury-original-imafxbd5dxhtguzh-bb.jpeg?q=70",
+      "rating": {
+        "rate": 4.7,
+        "count": 500
+      }
+    },
+    {
+      "id": 4,
+      "title": "Mens Casual Slim Fit",
+      "price": 475.99,
+      "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
+      "category": "men's clothing",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/r/2/s/m-tgyrdganesh-tripr-original-imaghbxwmjf6szhc.jpeg?q=70",
+      "rating": {
+        "rate": 4.1,
+        "count": 430
+      }
+    },
+    {
+      "id": 5,
+      "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+      "price": 695,
+      "description": "From our Legends Collection, the Naga was inspired by the mythical water dragon that protects the ocean's pearl. Wear facing inward to be bestowed with love and abundance, or outward for protection.",
+      "category": "jewelery",
+      "image": "https://rukminim1.flixcart.com/image/612/612/l2c753k0/ring/2/y/f/adjustable-1-hand-ring-ring-wegrow-original-imagdzyfshgsgfp4.jpeg?q=70",
+      "rating": {
+        "rate": 4.6,
+        "count": 400
+      }
+    },
+    {
+      "id": 6,
+      "title": "Solid Gold Petite Micropave ",
+      "price": 968,
+      "description": "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+      "category": "jewelery",
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/bangle-bracelet-armlet/c/k/0/2-2-2-2-na-f158-silver-2-2-2-nmii-original-imagj9fvaagkhqhd.jpeg?q=70",
+      "rating": {
+        "rate": 3.9,
+        "count": 70
+      }
+    },
+    {
+      "id": 7,
+      "title": "White Gold Plated Princess",
+      "price": 799.99,
+      "description": "Classic Created Wedding Engagement Solitaire Diamond Promise Ring for Her. Gifts to spoil your love more for Engagement, Wedding, Anniversary, Valentine's Day...",
+      "category": "jewelery",
+      "image": "https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg",
+      "rating": {
+        "rate": 3.8,
+        "count": 400
+      }
+    },
+    {
+      "id": 8,
+      "title": "Pierced Owl Rose Gold Plated Stainless Steel Double",
+      "price": 910.99,
+      "description": "Rose Gold Plated Double Flared Tunnel Plug Earrings. Made of 316L Stainless Steel",
+      "category": "jewelery",
+      "image": "https://fakestoreapi.com/img/51UDEzMJVpL._AC_UL640_QL65_ML3_.jpg",
+      "rating": {
+        "rate": 4.9,
+        "count": 100
+      }
+    },
+    {
+      "id": 9,
+      "title": "Seagate 1TB Elements Portable External Hard Drive - USB 3.0 ",
+      "price": 3464,
+      "description": "USB 3.0 and USB 2.0 Compatibility Fast data transfers Improve PC Performance High Capacity; Compatibility Formatted NTFS for Windows 10, Windows 8.1, Windows 7; Reformatting may be required for other operating systems; Compatibility may vary depending on user’s hardware configuration and operating system",
+      "category": "electronics",
+      "image": "https://rukminim1.flixcart.com/image/416/416/ktop5e80/internal-hard-drive/e/x/o/barracuda-internal-hdd-with-2-5-inch-sata-6-gb-s-5400-rpm-128-mb-original-imag6z27y2zdnzg9.jpeg?q=70",
+      "rating": {
+        "rate": 4.3,
+        "count": 203
+      }
+    },
+    {
+      "id": 10,
+      "title": "SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
+      "price": 4999,
+      "description": "Easy upgrade for faster boot up, shutdown, application load and response (As compared to 5400 RPM SATA 2.5” hard drive; Based on published specifications and internal benchmarking tests using PCMark vantage scores) Boosts burst write performance, making it ideal for typical PC workloads The perfect balance of performance and reliability Read/write speeds of up to 535MB/s/450MB/s (Based on internal testing; Performance may vary depending upon drive capacity, host device, OS and application.)",
+      "category": "electronics",
+      "image": "https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
+      "rating": {
+        "rate": 4.7,
+        "count": 470
+      }
+    },
+    {
+      "id": 11,
+      "title": "GMV Power 256GB SSD SATA III 2.5",
+      "price": 1899,
+      "description": "3D NAND flash are applied to deliver high transfer speeds Remarkable transfer speeds that enable faster bootup and improved overall system performance. The advanced SLC Cache Technology allows performance boost and longer lifespan 7mm slim design suitable for Ultrabooks and Ultra-slim notebooks. Supports TRIM command, Garbage Collection technology, RAID, and ECC (Error Checking & Correction) to provide the optimized performance and enhanced reliability.",
+      "category": "electronics",
+      "image": "https://rukminim1.flixcart.com/image/416/416/l0bbonk0/internal-hard-drive/z/s/k/256gb-ssd-2-5-inch-sata-evm-original-imagc4ksx2zgwwfn.jpeg?q=70",
+      "rating": {
+        "rate": 4.8,
+        "count": 319
+      }
+    },
+    {
+      "id": 12,
+      "title": "WD 4TB Gaming Drive Portable External Hard Drive",
+      "price": 9799,
+      "description": "Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",
+      "category": "electronics",
+      "image": "https://rukminim1.flixcart.com/image/416/416/kpcy5jk0/external-hard-drive/hdd/r/c/i/wdbbgb0040hbk-besn-wd-original-imag3hxfvngzmdmd.jpeg?q=70",
+      "rating": {
+        "rate": 4.3,
+        "count": 400
+      }
+    },
+    {
+      "id": 13,
+      "title": "Acer SB220Q bi 21.5 inches Full HD (1920 x 1080) IPS Ultra-Thin",
+      "price": 8599,
+      "description": "21. 5 inches Full HD (1920 x 1080) widescreen IPS display And Radeon free Sync technology. No compatibility for VESA Mount Refresh Rate: 75Hz - Using HDMI port Zero-frame design | ultra-thin | 4ms response time | IPS panel Aspect ratio - 16: 9. Color Supported - 16. 7 million colors. Brightness - 250 nit Tilt angle -5 degree to 15 degree. Horizontal viewing angle-178 degree. Vertical viewing angle-178 degree 75 hertz",
+      "category": "electronics",
+      "image": "https://rukminim1.flixcart.com/image/416/416/kk76wsw0/monitor/u/p/k/qg271-um-hq1ss-001-acer-original-imafzhrxqegfbhad.jpeg?q=70",
+      "rating": {
+        "rate": 4.1,
+        "count": 250
+      }
+    },
+    {
+      "id": 14,
+      "title": "Samsung 49-Inch 144Hz Curved Gaming Monitor Super Ultrawide  QLED ",
+      "price": 28999.99,
+      "description": "49 INCH SUPER ULTRAWIDE 32:9 CURVED GAMING MONITOR with dual 27 inch screen side by side QUANTUM DOT (QLED) TECHNOLOGY, HDR support and factory calibration provides stunningly realistic and accurate color and contrast 144HZ HIGH REFRESH RATE and 1ms ultra fast response time work to eliminate motion blur, ghosting, and reduce input lag",
+      "category": "electronics",
+      "image": "https://rukminim1.flixcart.com/image/416/416/klv7ekw0/monitor/r/k/7/lc34j791wtwxxl-34-c34j791wtw-samsung-original-imagyw93yebmhasb.jpeg?q=70",
+      "rating": {
+        "rate": 4.2,
+        "count": 140
+      }
+    },
+    {
+      "id": 15,
+      "title": "BIYLACLESEN Women's 3-in-1 Snowboard Jacket Winter Coats",
+      "price": 756.99,
+      "description": "Note:The Jackets is US standard size, Please choose size as your usual wear Material: 100% Polyester; Detachable Liner Fabric: Warm Fleece. Detachable Functional Liner: Skin Friendly, Lightweigt and Warm.Stand Collar Liner jacket, keep you warm in cold weather. Zippered Pockets: 2 Zippered Hand Pockets, 2 Zippered Pockets on Chest (enough to keep cards or keys)and 1 Hidden Pocket Inside.Zippered Hand Pockets and Hidden Pocket keep your things secure. Humanized Design: Adjustable and Detachable Hood and Adjustable cuff to prevent the wind and water,for a comfortable fit. 3 in 1 Detachable Design provide more convenience, you can separate the coat and inner as needed, or wear it together. It is suitable for different season and help you adapt to different climates",
+      "category": "women's clothing",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/jacket/m/k/h/s-ttjk000753-tokyo-talkies-original-imafktjb6khhckmq-bb.jpeg?q=70",
+      "rating": {
+        "rate": 4.6,
+        "count": 235
+      }
+    },
+    {
+      "id": 16,
+      "title": "Lock and Love Women's Removable Hooded Faux Leather Moto Biker Jacket",
+      "price": 595.49,
+      "description": "100% POLYURETHANE(shell) 100% POLYESTER(lining) 75% POLYESTER 25% COTTON (SWEATER), Faux leather material for style and comfort / 2 pockets of front, 2-For-One Hooded denim style faux leather jacket, Button detail on waist / Detail stitching at sides, HAND WASH ONLY / DO NOT BLEACH / LINE DRY / DO NOT IRON",
+      "category": "women's clothing",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/jacket/t/u/a/s-sys-4176-funday-fashion-original-imafp8uqhxaejpvv-bb.jpeg?q=70",
+      "rating": {
+        "rate": 3.9,
+        "count": 340
+      }
+    },
+    {
+      "id": 17,
+      "title": "Rain Jacket Women Windbreaker Striped Climbing Raincoats",
+      "price": 699,
+      "description": "Lightweight perfet for trip or casual wear---Long sleeve with hooded, adjustable drawstring waist design. Button and zipper front closure raincoat, fully stripes Lined and The Raincoat has 2 side pockets are a good size to hold all kinds of things, it covers the hips, and the hood is generous but doesn't overdo it.Attached Cotton Lined Hood with Adjustable Drawstrings give it a real styled look.",
+      "category": "women's clothing",
+      "image": "https://fakestoreapi.com/img/71HblAHs5xL._AC_UY879_-2.jpg",
+      "rating": {
+        "rate": 3.8,
+        "count": 679
+      }
+    },
+    {
+      "id": 18,
+      "title": "MBJ Women's Solid Short Sleeve Boat Neck V ",
+      "price": 985,
+      "description": "95% RAYON 5% SPANDEX, Made in USA or Imported, Do Not Bleach, Lightweight fabric with great stretch for comfort, Ribbed on sleeves and neckline / Double stitching on bottom hem",
+      "category": "women's clothing",
+      "image": "https://rukminim1.flixcart.com/image/832/832/kj8wccw0-0/t-shirt/v/r/a/xxl-tsh-gl-117-blk-juneberry-original-imafyvfrhqzbnsrq.jpeg?q=70",
+      "rating": {
+        "rate": 4.7,
+        "count": 130
+      }
+    },
+    {
+      "id": 19,
+      "title": "Opna Women's Short Sleeve Moisture",
+      "price": 795,
+      "description": "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk for a Great Fit, Lightweight, roomy and highly breathable with moisture wicking fabric which helps to keep moisture away, Soft Lightweight Fabric with comfortable V-neck collar and a slimmer fit, delivers a sleek, more feminine silhouette and Added Comfort",
+      "category": "women's clothing",
+      "image": "https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/a/o/t/-original-imaggby7sgnzjtdd.jpeg?q=70",
+      "rating": {
+        "rate": 4.5,
+        "count": 146
+      }
+    },
+    {
+      "id": 20,
+      "title": "DANVOUY Womens T Shirt Casual Cotton Short",
+      "price": 329,
+      "description": "95%Cotton,5%Spandex, Features: Casual, Short Sleeve, Letter Print,V-Neck,Fashion Tees, The fabric is soft and has some stretch., Occasion: Casual/Office/Beach/School/Home/Street. Season: Spring,Summer,Autumn,Winter.",
+      "category": "women's clothing",
+      "image": "https://rukminim1.flixcart.com/image/832/832/xif0q/t-shirt/k/n/c/-original-imagha2hfzbhzaqy.jpeg?q=70",
+      "rating": {
+        "rate": 3.6,
+        "count": 145
+      }
+    },
+    {
+      "id": 21,
+      "title": "POLESTAR Vintage 32 L College/ School/ Office/ Casual/ Travel Backpack",
+      "price": 979.99,
+      "description": "POLESTAR Vintage” has unique style and utility requirement. Ergonomically designed with padded base. This Backpack is spacious, lightweight and easy to carry. It is an ideal backpack for daily use, Office, School, College, travel etc.",
+      "category": "bags",
+      "image": "https://rukminim1.flixcart.com/image/832/832/jg8ahzk0/backpack/y/8/r/bingo-01-green-sbbin01grn-backpack-skybags-original-imaf4hxanyd9nsng.jpeg?q=70",
+      "rating": {
+        "rate": 4,
+        "count": 315
+      }
+    },
+    {
+      "id": 22,
+      "title": "F Gear Luxur Brown 25 liter Laptop Backpack (2404)",
+      "price": 1032,
+      "description": "A fashionable laptop backpack. This full-featured pack makes space for everything essential with multiple zip pockets on the exterior, plus a ready-to-go interior with padded laptop compartment and other storage solutions. Pattern: Solid. Laptop Size: 16",
+      "category": "bags",
+      "image": "https://rukminim1.flixcart.com/image/832/832/ksdjma80/backpack/s/8/i/playys-school-backpack-for-girls-college-bag-tuition-bag-navy-original-imag5ygkgzdnczrr.jpeg?q=70",
+      "rating": {
+        "rate": 4.4,
+        "count": 165
+      }
+    },
+    {
+      "id": 23,
+      "title": "American Tourister Casual Backpack",
+      "price": 1299,
+      "description": "Lightweight backpack made of durable double dot polyester fabric.Mesh Padding on back & shoulder strap to provide comfort & better back support",
+      "category": "bags",
+      "image": "https://m.media-amazon.com/images/I/81KEKEDFUcL._UY879_.jpg",
+      "rating": {
+        "rate": 4.1,
+        "count": 908
+      }
+    },
+    {
+      "id": 24,
+      "title": "Arrow Men's Slim Shirt",
+      "price": 949,
+      "description": "Arrow's shirts are an undeniable choice when you want to look your best. This formal shirt features a point collar and full sleeve while the combination of fine tailoring and soft fabric gives you a smart & crisp look.",
+      "category": "men's clothing",
+      "image": "https://m.media-amazon.com/images/I/71OLkBVHc+L._UY879_.jpg",
+      "rating": {
+        "rate": 4.2,
+        "count": 176
+      }
+    },
+    {
+      "id": 25,
+      "title": "Jack & Jones Men's Carrot Slim Jeans",
+      "price": 989.69,
+      "description": "Jack & Jones Men Casual Wear Mid-Rise Slim Fit Solid Blue Jeans With 5 pockets",
+      "category": "men's clothing",
+      "image": "https://m.media-amazon.com/images/I/716K3ShbBOL._UX569_.jpg",
+      "rating": {
+        "rate": 4,
+        "count": 29
+      }
+    },{
+      "id": 26,
+      "title": "Safari No. 1 Backpack, Fits 15 Laptops",
+      "price": 759.95,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "bags",
+      "image": "https://m.media-amazon.com/images/I/51LoviZ7+aL._UX679_.jpg",
+      "rating": {
+        "rate": 4.6,
+        "count": 100
+      }
+    },
+    {
+      "id": 27,
+      "title": "Mens Casual Premium Slim Fit jeans ",
+      "price": 699.9,
+      "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
+      "category": "men's clothing",
+      "image": "https://m.media-amazon.com/images/I/61DzS5aOy4L._UX679_.jpg",
+      "rating": {
+        "rate": 4.2,
+        "count": 259
+      }
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "id": 1,
+      "productId": 7,
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "productId": 25,
+      "quantity": 2
+    }
+  ]
+}

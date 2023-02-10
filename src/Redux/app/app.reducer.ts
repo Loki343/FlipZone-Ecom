@@ -1,0 +1,63 @@
+import { Product } from "../../Utiles/types";
+import { AppAction } from "./app.action";
+import {
+  GET_PRODUCT_SUCCESS,
+  PRODUCT_ERROR,
+  PRODUCT_REQUEST,
+  UPDATE_PRODUCT_SUCCESS,
+} from "./app.types";
+
+export interface IAppState {
+  loading: boolean;
+  error: boolean;
+  data: Product[];
+}
+
+const initialState = {
+  loading: false,
+  error: false,
+  data: [],
+};
+
+export const AppReducer = (
+  state: IAppState = initialState,
+  action: AppAction
+): IAppState => {
+  switch (action.type) {
+    case PRODUCT_REQUEST: {
+      return {
+        ...state,
+        loading: true,
+      };
+    }
+
+    case GET_PRODUCT_SUCCESS: {
+      return {
+        ...state,
+        loading: false,
+        data: action.payload,
+      };
+    }
+
+    case UPDATE_PRODUCT_SUCCESS: {
+      return {
+        ...state,
+        loading: false,
+        data: state.data.map((item) =>
+          item.id === action.payload.id ? action.payload : item
+        ),
+      };
+    }
+
+    case PRODUCT_ERROR: {
+      return {
+        ...state,
+        loading: false,
+        error: true,
+      };
+    }
+
+    default:
+      return state;
+  }
+};
