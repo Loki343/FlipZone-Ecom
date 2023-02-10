@@ -15,16 +15,12 @@ import {
   useBreakpointValue,
   useDisclosure,
   Image,
-  Input,
-  InputGroup,
-  InputRightAddon,
 } from "@chakra-ui/react";
 import {
   HamburgerIcon,
   CloseIcon,
   ChevronDownIcon,
   ChevronRightIcon,
-  Search2Icon,
 } from "@chakra-ui/icons";
 import NavSearch from "./NavSearch";
 
@@ -157,7 +153,7 @@ const DesktopNav = () => {
         </Box>
       ))}
       <Box>
-        <NavSearch/>
+        <NavSearch />
       </Box>
     </Stack>
   );
@@ -292,7 +288,7 @@ const NAV_ITEMS: Array<NavItem> = [
   // },
   {
     label: "All Product",
-    href: "/",
+    href: "/allProduct",
   },
   {
     label: "Add Product",
