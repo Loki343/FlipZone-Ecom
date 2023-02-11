@@ -20,8 +20,8 @@ FlipZone.com is an Indian e-commerce company, founded by Kausik Bhaumik in 2023 
 
 ~ Pagination Functionality
 
-~ Login Page with Authentication 
-Email:eve.holt@reqres.in
+~ Login Page with Authentication <br/>
+Email:eve.holt@reqres.in<br/>
 Password:cityslicka
 
 Limitation: Run db.json file in local system at port 8080
