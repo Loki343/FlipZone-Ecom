@@ -24,6 +24,8 @@ FlipZone.com is an Indian e-commerce company, founded by Kausik Bhaumik in 2023 
 Email:eve.holt@reqres.in
 Password:cityslicka
 
+Limitation: Run db.json file in local system at port 8080
+
 <h3>Tech Stack:</h3> 
 
 HTML | CSS3 | JavaScript | ReactJS | Redux | TypeScript | ChakraUI
