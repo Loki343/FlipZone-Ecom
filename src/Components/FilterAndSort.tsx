@@ -57,8 +57,8 @@ const FilterAndSort = () => {
           <Checkbox value="bags">Bags</Checkbox>
           <Checkbox value="electronics">Electronics</Checkbox>
           <Checkbox value="jewelery">Jewellery</Checkbox>
-          <Checkbox value="men's clothing">Men's Clothing</Checkbox>
           <Checkbox value="women's clothing">Women's Clothing</Checkbox>
+          <Checkbox value="men's clothing">Men's Clothing</Checkbox>
         </Stack>
       </CheckboxGroup>
 
