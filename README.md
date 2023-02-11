@@ -10,7 +10,7 @@ FlipZone.com is an Indian e-commerce company, founded by Kausik Bhaumik in 2023 
 
 <h3>Features:</h3>
 
-~ Landing Page
+~ Home Page
 
 ~ Import Export 
 
@@ -18,7 +18,7 @@ FlipZone.com is an Indian e-commerce company, founded by Kausik Bhaumik in 2023 
 
 ~ Pagination Functionality
 
-~ Signup Page & Login Page with Authentication & Validation
+~ Login Page with Authentication - Email:eve.holt@reqres.in
 
 ~ Log out Functionality
 
@@ -26,4 +26,4 @@ FlipZone.com is an Indian e-commerce company, founded by Kausik Bhaumik in 2023 
 
 <h3>Tech Stack:</h3> 
 
-HTML | CSS | JavaScript | ReactJS | DOM | ChakraUI
+HTML | CSS3 | JavaScript | ReactJS | Redux | TypeScript | ChakraUI
