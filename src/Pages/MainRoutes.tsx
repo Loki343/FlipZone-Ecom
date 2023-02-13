@@ -7,7 +7,7 @@ import ProductPage from "./ProductPage";
 import EditProduct from "./EditProduct";
 import RequireAuth from "../Components/RequireAuth";
 import AllProduct from "./AllProduct";
-import Homepage from "./HomePage";
+import Homepage from "./Homepage";
 
 const MainRoutes = () => {
   return (
