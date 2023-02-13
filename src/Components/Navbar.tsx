@@ -23,13 +23,17 @@ import {
   ChevronRightIcon,
 } from "@chakra-ui/icons";
 import NavSearch from "./NavSearch";
-
+import { useAppSelector } from "../Redux/store";
 
 export default function Navbar() {
   const { isOpen, onToggle } = useDisclosure();
+  const auth = useAppSelector((store) => store.AuthReducer.isAuth);
+  const userLogout = () => {
+    localStorage.clear();
+  };
 
   return (
-    <Box style={{top:'0px',position:'sticky',zIndex:'1000'}}>
+    <Box style={{ top: "0px", position: "sticky", zIndex: "1000" }}>
       <Flex
         bg={useColorModeValue("white", "gray.800")}
         color={useColorModeValue("gray.600", "white")}
@@ -40,13 +44,11 @@ export default function Navbar() {
         borderStyle={"solid"}
         borderColor={useColorModeValue("gray.200", "gray.900")}
         align={"center"}
-        
       >
         <Flex
           flex={{ base: 1, md: "auto" }}
           ml={{ base: -2 }}
           display={{ base: "flex", md: "none" }}
-          
         >
           <IconButton
             onClick={onToggle}
@@ -83,23 +85,41 @@ export default function Navbar() {
           direction={"row"}
           spacing={6}
         >
-          <Button as={"a"} fontSize={"sm"} fontWeight={400} variant={"link"}>
+          {/* <Button as={"a"} fontSize={"sm"} fontWeight={400} variant={"link"}>
             <Link href={"/login"}>Sign In</Link>
-          </Button>
-          <Button
-            as={"a"}
-            display={{ base: "none", md: "inline-flex" }}
-            fontSize={"sm"}
-            fontWeight={600}
-            color={"white"}
-            bg={"pink.400"}
-            href={"#"}
-            _hover={{
-              bg: "pink.300",
-            }}
-          >
-            Sign Up
-          </Button>
+          </Button> */}
+          {auth ? (
+            <Button
+              as={"a"}
+              display={{ base: "none", md: "inline-flex" }}
+              fontSize={"sm"}
+              fontWeight={600}
+              color={"white"}
+              bg={"blue.400"}
+              href={"/login"}
+              _hover={{
+                bg: "blue.300",
+              }}
+              onClick={userLogout}
+            >
+              Log Out
+            </Button>
+          ) : (
+            <Button
+              as={"a"}
+              display={{ base: "none", md: "inline-flex" }}
+              fontSize={"sm"}
+              fontWeight={600}
+              color={"white"}
+              bg={"blue.400"}
+              href={"/login"}
+              _hover={{
+                bg: "blue.300",
+              }}
+            >
+              Sign In
+            </Button>
+          )}
         </Stack>
       </Flex>
 

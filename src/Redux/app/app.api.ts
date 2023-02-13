@@ -34,10 +34,10 @@ export const updateProductAPI = async (
 };
 
 export const addToCartAPI = async (payload: {
-  title: string;
-  price: number;
-  image: string;
-  count: number;
+  title: string | undefined;
+  price: number | undefined;
+  image: string | undefined;
+  count: number | undefined;
 }) => {
   try {
     let res = await axios.post(`http://localhost:8080/cart`, payload);

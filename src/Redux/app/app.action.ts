@@ -115,13 +115,11 @@ export const updateProducts =
   };
 
 export const addToCart =
-  (payload: { title: string; price: number; image: string,count:number }): any =>
+  (payload: { title: string| undefined; price: number| undefined; image: string| undefined,count:number }): any =>
   async (dispatch: AppDispatch) => {
     dispatch(productRequest());
     try {
       let data = await addToCartAPI(payload);
-      console.log(data);
-
       if (data) {
         dispatch(addToCartSuccess(data));
       }

@@ -24,7 +24,14 @@ const MainRoutes = () => {
         }
       />
       <Route path="/product/:productId" element={<ProductPage />} />
-      <Route path="/product/:productId/edit" element={<EditProduct />} />
+      <Route
+        path="/product/:productId/edit"
+        element={
+          <RequireAuth>
+            <EditProduct />
+          </RequireAuth>
+        }
+      />
       <Route path="/login" element={<Login />} />
       <Route path="*" element={<h1>404 : Not Found</h1>} />
     </Routes>

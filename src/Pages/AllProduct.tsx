@@ -1,4 +1,4 @@
-import { Box, Flex } from "@chakra-ui/react";
+import { Box, Flex, Heading } from "@chakra-ui/react";
 import React, { useEffect, useState } from "react";
 import { useLocation, useSearchParams } from "react-router-dom";
 import FilterAndSort from "../Components/FilterAndSort";
@@ -32,8 +32,9 @@ const AllProduct = () => {
 
   return (
     <div>
+      <Heading marginTop={'30px'} color='rgb(49, 87, 241)' fontFamily={'cursive'}>All Products</Heading>
       <Flex>
-        <Box minW={"280px"} border={"1px solid lightgray"}>
+        <Box minW={"280px"} border={"1px solid lightgray transparent"}>
           <FilterAndSort />
         </Box>
         <Box>

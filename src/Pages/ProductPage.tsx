@@ -15,10 +15,26 @@ import {
   ListItem,
 } from '@chakra-ui/react';
 import { MdLocalShipping } from 'react-icons/md';
+import { addToCart } from '../Redux/app/app.action';
+import { useAppDispatch } from '../Redux/store';
 import useCurrentParamProduct from './../hooks/useCurrentParamProduct';
 
 export default function Simple() {
   const {currentProduct} = useCurrentParamProduct();
+  console.log(currentProduct?.title);
+  const dispatch = useAppDispatch();
+  
+  const addToCartInProductPage = () => {
+    const payload = {
+      title:currentProduct?.title,
+      price: currentProduct?.price,
+      image:currentProduct?.image,
+      count:1
+    };
+    // console.log(payload);
+    dispatch(addToCart(payload))
+  };
+  
   return (
     <Container maxW={'7xl'}>
       <SimpleGrid
@@ -161,6 +177,7 @@ export default function Simple() {
             mt={8}
             size={'lg'}
             py={'7'}
+            onClick={addToCartInProductPage}
             bg={useColorModeValue('gray.900', 'gray.50')}
             color={useColorModeValue('white', 'gray.900')}
             textTransform={'uppercase'}

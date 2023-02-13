@@ -5,16 +5,13 @@ import {
   Image,
   Badge,
   useColorModeValue,
-  Icon,
   chakra,
   Tooltip,
+  Button,
 } from "@chakra-ui/react";
-// import { BsStar, BsStarFill, BsStarHalf } from "react-icons/bs";
-import { FiShoppingCart } from "react-icons/fi";
-import { AiOutlineEdit } from "react-icons/ai";
 import { Product } from "../Utiles/types";
 import { Link } from "react-router-dom";
-import {  useAppDispatch } from "../Redux/store";
+import { useAppDispatch, useAppSelector } from "../Redux/store";
 import { addToCart } from "../Redux/app/app.action";
 
 const data = {
@@ -62,17 +59,19 @@ const data = {
 
 function ProductCard({ id, title, price, image }: Product) {
   const dispatch = useAppDispatch();
+  const auth = useAppSelector((store) => store.AuthReducer.isAuth);
+  console.log(auth);
   const addToCartInCard = () => {
-    
     const payload = {
       title: title,
       price: price,
-      image:image,
-      count:1
+      image: image,
+      count: 1,
     };
     // console.log(payload);
-    dispatch(addToCart(payload))
+    dispatch(addToCart(payload));
   };
+
   return (
     <Flex p={10} w="fit-content" alignItems="center" justifyContent="center">
       <Box
@@ -119,31 +118,40 @@ function ProductCard({ id, title, price, image }: Product) {
             >
               {title}
             </Box>
+          </Flex>
+          <Flex justifyContent={"space-between"}>
+            {auth &&
+              <Tooltip
+                label="Edit Product for Admin"
+                bg="lightblue"
+                placement={"top"}
+                color={"gray.800"}
+                fontSize={"1.2em"}
+              >
+                <Link to={`/product/${id}/edit`}>
+                  <Box>
+                    {/* <Icon cursor={"pointer"} as={AiOutlineEdit} w={7} h={7} /> */}
+                    <Button>Edit Product</Button>
+                  </Box>
+                </Link>
+              </Tooltip>
+            }
             <Tooltip
               label="Add to cart"
-              bg="white"
+              bg="lightblue"
               placement={"top"}
               color={"gray.800"}
               fontSize={"1.2em"}
             >
-              <chakra.a href={"#"} display={"flex"}>
-                <Icon
-                  as={FiShoppingCart}
-                  h={7}
-                  w={7}
-                  alignSelf={"center"}
-                  onClick={() => addToCartInCard()}
-                />
+              <chakra.a display={"flex"}>
+                <Button alignSelf={"center"} onClick={() => addToCartInCard()}>
+                  Add to Cart
+                </Button>
               </chakra.a>
             </Tooltip>
           </Flex>
-          <Link to={`/product/${id}/edit`}>
-            <Box>
-              <Icon cursor={"pointer"} as={AiOutlineEdit} w={7} h={7} />
-            </Box>
-          </Link>
+
           <Flex justifyContent="space-between" alignContent="center">
-            {/* <Rating rating={data.rating} numReviews={data.numReviews} /> */}
             <Box fontSize="2xl" color={useColorModeValue("gray.800", "white")}>
               <Box as="span" color={"gray.600"} fontSize="lg">
                 <span style={{ fontWeight: "700" }}>Rs(₹) : </span>

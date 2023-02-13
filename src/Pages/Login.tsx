@@ -40,7 +40,7 @@ export default function Login() {
     <Stack minH={"100vh"} direction={{ base: "column", md: "row" }}>
       <Flex p={8} flex={1} align={"center"} justify={"center"}>
         <Stack spacing={4} w={"full"} maxW={"md"}>
-          <Heading fontSize={"2xl"}>Sign in to your account</Heading>
+          <Heading fontSize={"3xl"} fontFamily={'cursive'} color={'rgb(49, 87, 241)'}>Sign in to your account</Heading>
           <FormControl id="email">
             <FormLabel>Email address</FormLabel>
             <Input

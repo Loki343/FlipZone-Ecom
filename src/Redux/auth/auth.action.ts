@@ -41,14 +41,17 @@ export const userLoginError = (): IUserLoginError => ({
 });
 
 export const userLogin =
-  (payload: LoginData):any => async (dispatch: AppDispatch) => {
+  (payload: LoginData): any =>
+  async (dispatch: AppDispatch) => {
     dispatch(userLoginRequest());
     try {
       let data = await userLoginAPI(payload);
       if (data) {
         dispatch(userLoginSuccess(data));
+        localStorage.setItem("auth", "turu");
       }
     } catch (error) {
       dispatch(userLoginError());
     }
   };
+

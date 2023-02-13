@@ -8,14 +8,14 @@ import {
 export interface AuthState {
   loading: boolean;
   error: boolean;
-  isAuth: boolean;
+  isAuth: any;
   token: string;
 }
 
 const initialState = {
   loading: false,
   error: false,
-  isAuth: false,
+  isAuth: localStorage.getItem('auth') || false,
   token: "",
 };
 
