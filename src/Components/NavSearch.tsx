@@ -19,7 +19,7 @@ const NavSearch = () => {
 //   const [showDropdown, setShowDropdown] = useBoolean();
   const products = useAppSelector((store) => store.AppReducer.data);
   const throttledText = useThrottle(query, 400);
-console.log(suggestions)
+// console.log(suggestions)
   useEffect(() => {
     //run some logic
     if (throttledText === "") {

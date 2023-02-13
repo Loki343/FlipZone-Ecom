@@ -14,6 +14,8 @@ import { FiShoppingCart } from "react-icons/fi";
 import { AiOutlineEdit } from "react-icons/ai";
 import { Product } from "../Utiles/types";
 import { Link } from "react-router-dom";
+import {  useAppDispatch } from "../Redux/store";
+import { addToCart } from "../Redux/app/app.action";
 
 const data = {
   isNew: true,
@@ -59,6 +61,18 @@ const data = {
 //   }
 
 function ProductCard({ id, title, price, image }: Product) {
+  const dispatch = useAppDispatch();
+  const addToCartInCard = () => {
+    
+    const payload = {
+      title: title,
+      price: price,
+      image:image,
+      count:1
+    };
+    // console.log(payload);
+    dispatch(addToCart(payload))
+  };
   return (
     <Flex p={10} w="fit-content" alignItems="center" justifyContent="center">
       <Box
@@ -113,7 +127,13 @@ function ProductCard({ id, title, price, image }: Product) {
               fontSize={"1.2em"}
             >
               <chakra.a href={"#"} display={"flex"}>
-                <Icon as={FiShoppingCart} h={7} w={7} alignSelf={"center"} />
+                <Icon
+                  as={FiShoppingCart}
+                  h={7}
+                  w={7}
+                  alignSelf={"center"}
+                  onClick={() => addToCartInCard()}
+                />
               </chakra.a>
             </Tooltip>
           </Flex>

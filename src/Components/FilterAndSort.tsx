@@ -19,7 +19,7 @@ const FilterAndSort = () => {
   const [sortValue, setSortValue] = useState<string>("");
 
 //   console.log(searchParams1.getAll("sort"));
-  console.log(sortValue);
+  // console.log(sortValue);
 
   const handleFilterChange = (value: string[]) => {
     setFilterValues(value);

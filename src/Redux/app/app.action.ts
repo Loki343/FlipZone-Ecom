@@ -1,7 +1,9 @@
 import { Product } from "../../Utiles/types";
 import { AppDispatch } from "../store";
-import { getProductAPI, updateProductAPI } from "./app.api";
+import { addToCartAPI, getFromCartAPI, getProductAPI, updateProductAPI } from "./app.api";
 import {
+  ADD_TO_CART_SUCCESS,
+  GET_FROM_CART_SUCCESS,
   GET_PRODUCT_SUCCESS,
   PRODUCT_ERROR,
   PRODUCT_REQUEST,
@@ -31,7 +33,9 @@ export type AppAction =
   | IProductRequest
   | IProductError
   | IGetProductSuccess
-  | IUpdateProductSuccess;
+  | IUpdateProductSuccess
+  | any
+  | any;
 
 //main action
 export const productRequest = (): IProductRequest => ({
@@ -54,6 +58,34 @@ export const updateProductSuccess = (
   payload,
 });
 
+export const addToCartSuccess = (payload: {
+  title: string;
+  image: string;
+  price: number;
+  count:number
+}): any => ({
+  type: ADD_TO_CART_SUCCESS,
+  payload,
+});
+
+export const getFromCartSuccess = (cartData: any): any => ({
+  type: GET_FROM_CART_SUCCESS,
+  payload: cartData,
+});
+
+//action functions
+export const getFromCart = (): any => async (dispatch: AppDispatch) => {
+  dispatch(productRequest());
+  try {
+    let data = await getFromCartAPI();
+    if (data) {
+      dispatch(getFromCartSuccess(data));
+    }
+  } catch (error) {
+    dispatch(productError());
+  }
+};
+
 export const getProducts =
   (getProductsParams?: { params: { category: string[] } }): any =>
   async (dispatch: AppDispatch) => {
@@ -69,13 +101,29 @@ export const getProducts =
   };
 
 export const updateProducts =
-  (id: number, payload: { title: string; price: number }):any =>
+  (id: number, payload: { title: string; price: number }): any =>
   async (dispatch: AppDispatch) => {
     dispatch(productRequest());
     try {
       let data = await updateProductAPI(id, payload);
       if (data) {
         dispatch(updateProductSuccess(data));
+      }
+    } catch (error) {
+      dispatch(productError());
+    }
+  };
+
+export const addToCart =
+  (payload: { title: string; price: number; image: string,count:number }): any =>
+  async (dispatch: AppDispatch) => {
+    dispatch(productRequest());
+    try {
+      let data = await addToCartAPI(payload);
+      console.log(data);
+
+      if (data) {
+        dispatch(addToCartSuccess(data));
       }
     } catch (error) {
       dispatch(productError());

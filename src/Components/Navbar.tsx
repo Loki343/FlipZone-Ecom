@@ -24,6 +24,7 @@ import {
 } from "@chakra-ui/icons";
 import NavSearch from "./NavSearch";
 
+
 export default function Navbar() {
   const { isOpen, onToggle } = useDisclosure();
 

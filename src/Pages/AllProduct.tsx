@@ -14,7 +14,7 @@ const AllProduct = () => {
   const location = useLocation();
   const [searchParams] = useSearchParams();
   const [activePage, setActivePage] = useState(1);
-  console.log("activepage", activePage);
+  // console.log("activepage", activePage);
   const handlePageChange = (newPage: number): void => {
     setActivePage(newPage);
   };

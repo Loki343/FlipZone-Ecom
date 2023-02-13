@@ -11,7 +11,7 @@ export const getProductAPI = async (getProductsParams?: {
     );
     return res.data;
   } catch (error) {
-    console.log("getProductAPI Error", error);
+    console.log("getProductAPIError", error);
   }
 };
 
@@ -29,6 +29,29 @@ export const updateProductAPI = async (
     );
     return res.data;
   } catch (error) {
-    console.error(error);
+    console.error("updateProductAPIError", error);
+  }
+};
+
+export const addToCartAPI = async (payload: {
+  title: string;
+  price: number;
+  image: string;
+  count: number;
+}) => {
+  try {
+    let res = await axios.post(`http://localhost:8080/cart`, payload);
+    return res.data;
+  } catch (error) {
+    console.error("addToCartAPIError", error);
+  }
+};
+
+export const getFromCartAPI = async () => {
+  try {
+    let res = await axios.get("http://localhost:8080/cart");
+    return res.data;
+  } catch (error) {
+    console.log("getFromCartAPIError", error);
   }
 };
